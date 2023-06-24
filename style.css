@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 0;
+    margin: 0;
+    background-color:#2874f0;
+    height: 40px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+nav{
+    display: flex;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+    width: 40px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+  color: azure;
+  padding: 0 15px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.login{
+    margin: 0 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+.search input{
+    height: 23px;
+    width: 400px;
+    /* border: solid rgb(13, 13, 238); */
+    border-radius:.2cm;
+    margin: 0 10px 0 56px;
+    padding: 0 12px;
+    
+}
+.container{
+    min-height: calc(100vh - 40px - 68px);
+    
+}
+.mainimg{
+    padding: 0 140px;
+    
+}
+.headimg{
+    border: solid white;
+    border-width: 2px;
+    border-radius: 0.5cm;
+}
+.card{
+    padding: 0 40px;
+}
+.card h2{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+.foot-wear{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.fashion-wear{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.footwear{
+    margin: 15px;
+    border-radius: 0.25cm;
+
+
+}
+.footwear:hover{
+    transition:width 1s ease-in-out ;
+}
+.rates{
+    margin: 0 20px 0 20px;
+}
+.text1{
+    font-family: 'Kanit', sans-serif;
+    color: grey;
+}
+.text1:hover{
+    font-weight: bold;
+}
+.text3{
+    font-weight: bold;
+}
+.Gadgets{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+footer{
+    height: 68px;
+    width: 100%;
+    background-color: rgb(1, 10, 47);
+    color: white;
+    font-family: 'Noto Serif Ahom', serif;
+}
+
+.flex-all-center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    height: 23px;
+    padding: 0px 10px;
+    background-color: #2874f0;
+    color : white;
+    border-radius: .2cm;
+}
+.btn2{
+  background-color: #2874f0;
+  color: white;
+  border: 2px solid #4CAF50;
+  border-radius: .15cm;
+}
+
